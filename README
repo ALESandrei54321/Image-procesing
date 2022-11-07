@@ -1,0 +1,7 @@
+Programul implementat functioneaza ca un editor de imagini, iar aplicatia functioneaza doar cu imagini de tip BMP.
+Aceasta poate incarca in memorie o imagine in modul edit pentru a fi prelucrata, poate salvata imagini prelucrate si poate aplica cateva functii de design grafic:
+sa inserezeze o imagine peste cea originala, sa deseneze o linie, un triunghi, un dreptunghi si sa aplice functia de fill.
+De asemenea, este posibila modificarea unor parametrii precum culoarea si grosimea liniilor.
+Pentru functia fill se foloseste un algoritm recursiv de flood fill, iar pentru cea de desenat linii, se aplica formula unei ecuatii de gradul I(pe int-uri).
+Toate celelte functii de desenat forme geometrice se bazeaza pe mai multe apeluri la cea de desenat linii.
+In fine, programul se opreste odata cu introducerea comenzii "quit".
